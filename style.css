@@ -75,7 +75,13 @@ button:focus {
 }
 @media(max-width: 640px){
     .currency input {
-        width: 100px;
+        width: 200px;
+    }
+    .currency select {
+        max-width: 100px;
+        white-space: normal;
+        /* For Firefox: */
+        text-overflow: ellipsis;
     }
  
 }
